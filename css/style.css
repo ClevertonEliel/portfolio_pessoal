@@ -1,0 +1,46 @@
+/* Estilo para o portfólio */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte usada no corpo do documento */
+    margin: 0; /* Remove a margem padrão ao redor do corpo */
+    padding: 0; /* Remove o padding padrão ao redor do corpo */
+    background-color: #e9ecef; /* Define a cor de fundo do corpo */
+}
+
+header {
+    background-color: #343a40; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto no cabeçalho */
+    padding: 10px 0; /* Adiciona padding acima e abaixo do cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+    margin: 0; /* Remove a margem padrão da lista */
+    text-align: center; /* Centraliza o texto dentro da lista de navegação */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista na mesma linha */
+    margin-right: 15px; /* Adiciona um espaçamento à direita dos itens da lista */
+}
+
+nav ul li a {
+    color: white; /* Define a cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    font-weight: bold; /* Define o texto dos links como negrito */
+}
+
+main {
+    padding: 20px; /* Adiciona padding ao redor do conteúdo principal */
+}
+
+footer {
+    background-color: #343a40; /* Define a cor de fundo do rodapé */
+    color: white; /* Define a cor do texto no rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px 0; /* Adiciona padding (espaçamento interno) acima e abaixo do rodapé */
+    position: fixed; /* Define o rodapé como fixo na parte inferior da página */
+    width: 100%; /* Define a largura do rodapé para ocupar 100% da largura da página */
+    bottom: 0; /* Alinha o rodapé à parte inferior da página */
+}
